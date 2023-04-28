@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>student Templates </h3>
+    <h5>{{student}}</h5>
+    <a href="{% url 'student' 1 %}">student 1</a>
+    <a href="{% url 'student' 2 %}">student 2</a>
+    <a href="{% url 'student' 3 %}">student 3</a>
+
+    <a href="{% url 'subdetail' 1 4 %}">sub deatil 2</a>
+    <a href="{% url 'subdetail' 2 5 %}">sub detail  3</a>
+    <a href="{% url 'subdetail' 3 6 %}">subdetail 4</a>
+</body>
+</html>
